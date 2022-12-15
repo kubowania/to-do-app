@@ -1,4 +1,4 @@
-process.env.PORT ?? 8000
+const port = process.env.PORT ?? 8000
 const express = require('express')
 const cors = require('cors')
 const app = express()
